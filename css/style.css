@@ -393,16 +393,18 @@ width: 70%; /* テキストの幅を60%に増やす */
 /* 追加 */
 @media only screen and (max-width: 600px) {
   .image-text-container {
-    flex-direction: row; /* スマートフォンでも横並びにする */
+    flex-direction: column; /* スマートフォンでは縦並びにする */
     width: 100%; /* コンテナの幅を100%に設定 */
   }
   .left-image {
-    width: 30%; /* スマートフォンの画面サイズに合わせて画像の幅を調整 */
+    width: 100%; /* 画像の幅を画面幅全体にする */
+    margin-right: 0; /* 画像とテキストの間の余白をなくす */
   }
   .right-text {
-    width: 70%; /* スマートフォンの画面サイズに合わせてテキストの幅を調整 */
+    width: 100%; /* テキストの幅を画面幅全体にする */
   }
 }
+
 .content .text-intro{
   width: 1140px;
   margin-top: 150px;

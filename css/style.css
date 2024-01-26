@@ -367,7 +367,13 @@ CONTENT
   width:1140px;
   margin:50px auto;
 }
-
+.subheading {
+  font-size: 1.5em; /* これは例です。必要に応じてサイズを調整してください */
+  font-weight: bold; /* 太字にする */
+  margin-top: 20px; /* 上の余白 */
+  margin-bottom: 10px; /* 下の余白 */
+  /* その他のスタイル設定を追加 */
+}
 
 .content .text-intro{
   width: 1140px;

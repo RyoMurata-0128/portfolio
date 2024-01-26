@@ -374,6 +374,21 @@ CONTENT
   margin-bottom: 10px; /* 下の余白 */
   /* その他のスタイル設定を追加 */
 }
+/* 追加 */
+.image-text-container {
+display: flex;
+align-items: center;
+width: 160%; 
+}
+
+.left-image {
+width: 30%; /* 画像の幅を40%に減らす */
+margin-right: 50px; /* 画像とテキストの間のスペース */
+}
+
+.right-text {
+width: 70%; /* テキストの幅を60%に増やす */
+}
 
 .content .text-intro{
   width: 1140px;

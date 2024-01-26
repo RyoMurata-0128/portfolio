@@ -367,6 +367,7 @@ CONTENT
   width:1140px;
   margin:50px auto;
 }
+/* 追加 */
 .subheading {
   font-size: 1.5em; /* これは例です。必要に応じてサイズを調整してください */
   font-weight: bold; /* 太字にする */
@@ -380,16 +381,28 @@ display: flex;
 align-items: center;
 width: 160%; 
 }
-
+/* 追加 */
 .left-image {
 width: 30%; /* 画像の幅を40%に減らす */
 margin-right: 50px; /* 画像とテキストの間のスペース */
 }
-
+/* 追加 */
 .right-text {
 width: 70%; /* テキストの幅を60%に増やす */
 }
-
+/* 追加 */
+@media only screen and (max-width: 600px) {
+  .image-text-container {
+    flex-direction: row; /* スマートフォンでも横並びにする */
+    width: 100%; /* コンテナの幅を100%に設定 */
+  }
+  .left-image {
+    width: 30%; /* スマートフォンの画面サイズに合わせて画像の幅を調整 */
+  }
+  .right-text {
+    width: 70%; /* スマートフォンの画面サイズに合わせてテキストの幅を調整 */
+  }
+}
 .content .text-intro{
   width: 1140px;
   margin-top: 150px;

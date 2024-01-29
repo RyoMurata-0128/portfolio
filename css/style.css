@@ -403,6 +403,15 @@ width: 70%; /* テキストの幅を60%に増やす */
   .right-text {
     width: 100%; /* テキストの幅を画面幅全体にする */
   }
+  .header-nav {
+    display: block; /* ナビゲーションを表示 */
+        /* 必要に応じて他のスタイル設定を追加 */
+  }
+
+  .logo {
+     display: block; /* ロゴを表示 */
+        /* 必要に応じて他のスタイル設定を追加 */
+  }
 }
 
 .content .text-intro{

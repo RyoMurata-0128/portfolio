@@ -405,13 +405,19 @@ width: 70%; /* テキストの幅を60%に増やす */
   }
   .header-nav {
     display: block; /* ナビゲーションを表示 */
-        /* 必要に応じて他のスタイル設定を追加 */
   }
 
-  .logo {
-     display: block; /* ロゴを表示 */
-        /* 必要に応じて他のスタイル設定を追加 */
+  .header-nav li {
+    display: block; /* リスト項目を縦に並べる */
+    text-align: center; /* テキストを中央揃えにする */
   }
+
+  .header-nav li > a {
+    display: block; /* リンクをブロック要素にする */
+    padding: 10px 0; /* タップしやすいようにパディングを追加 */
+  }
+
+	
 }
 
 .content .text-intro{
